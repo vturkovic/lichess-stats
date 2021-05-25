@@ -1,0 +1,73 @@
+.elo-chart {
+  width: 30rem;
+  max-width: 80%;
+  margin: auto;
+}
+
+.elo-chart h2 {
+  border-bottom: 3px solid #ccc;
+  padding-bottom: 1rem;
+}
+
+.elo-chart ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  background-color: ivory;
+}
+
+.elo-chart li {
+  margin: 1rem 0;
+  padding: 0.5rem 1rem;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.26);
+  display: flex;
+  justify-content: space-between;
+}
+
+.elo-chart select {
+  height: 30px;
+  width: 140px;
+  font-size: medium;
+  margin-bottom: 17px;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.26);
+  background-color: ivory;
+  border-radius: 4px;
+  border-color: ivory;
+  border-width: 2px;
+}
+
+.elo-chart option {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.elo-chart select:focus {
+  outline: none;
+  background-color: rgb(243, 254, 255);
+  border-color: #ff2058;
+}
+
+.elo-chart button{
+  margin-left: 2.6rem;
+  background-color: black;
+  border: none
+}
+
+.elo-chart button:active{
+  background-color: rgb(207, 245, 255);
+  color: black
+}
+
+.elo-chart div{
+  margin-top: -0.4rem;
+  margin-bottom: -0.4rem;
+}
+
+.canvas {
+  border-radius: 6px;
+  background-color: ivory;
+  box-shadow: 0 5px 6px rgba(0, 0, 0, 0.26);
+}

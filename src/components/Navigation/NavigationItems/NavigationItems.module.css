@@ -1,0 +1,40 @@
+.NavigationItems {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    height: 100%;
+}
+
+.NavigationItem {
+    all: unset;
+    margin: 0;
+    display: flex;
+    height: 100%;
+    width: auto;
+    align-items: center;
+}
+
+.NavigationItem a {
+    color: white;
+    height: 100%;
+    padding: 16px 10px;
+    border-bottom: 4px solid transparent;
+    text-decoration: none;
+}
+
+.NavigationItem a:hover,
+.NavigationItem a:active,
+.NavigationItem a.active {
+    background-color: #a5a5a5;
+    border-bottom: 4px solid #40A4C8;
+    color: white;
+}
+
+@media (min-width: 500px) {
+    .NavigationItems {
+        flex-flow: row;
+    }
+}

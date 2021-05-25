@@ -1,0 +1,51 @@
+.login-form {
+  position: absolute;
+  width: 25rem;
+  margin: 3rem auto;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -100%);
+  /* max-width: 50%; */
+}
+
+.login-h1 {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+.form-control label,
+.form-control input {
+  display: block;
+  width: 100%;
+}
+
+.form-control input {
+  font: inherit;
+  padding: 0.1rem 0.25rem;
+  border: none;
+  border-bottom: 2px solid #ccc;
+  margin-bottom: 1rem;
+  background-color: ivory;
+}
+
+.form-control input:focus {
+  outline: none;
+  border-bottom-color: #ff2058;
+}
+
+.login-form__actions {
+  margin: auto;
+  text-align: center;
+}
+
+.create-new-account {
+  background-color: ivory;
+  color: black;
+  border: none;
+}
+
+.create-new-account:hover,
+.create-new-account:active {
+  box-shadow: none;
+}
